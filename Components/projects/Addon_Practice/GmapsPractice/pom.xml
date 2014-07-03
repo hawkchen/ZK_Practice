@@ -46,6 +46,24 @@
 			<groupId>org.zkoss.zkforge</groupId>
 			<artifactId>gmapsz</artifactId>
 			<version>3.0.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>zk</artifactId>
+					<groupId>org.zkoss.zk</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>zweb</artifactId>
+					<groupId>org.zkoss.zk</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>zcommon</artifactId>
+					<groupId>org.zkoss.common</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>zweb</artifactId>
+					<groupId>org.zkoss.common</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 </project>
